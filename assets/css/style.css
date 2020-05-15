@@ -13,6 +13,14 @@ body {
   color: #444444;
 }
 
+#hero h2 .rotating {
+  display: block;
+}
+
+#hero .rotating > .animated {
+  display: inline-block;
+}
+
 a {
   color: #1bac91;
 }
@@ -65,11 +73,11 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 15px 0;
-  background: #000;
+  background: rgb(17, 17, 17);
 }
 
 #header .logo h1 {
-  font-size: 30px;
+  font-size: 35px;
   margin: 0;
   padding: 6px 0;
   line-height: 1;
@@ -133,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 3px;
   left: 0;
-  background-color: #1bac91;
+  background-color: #fffdf6;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -337,7 +345,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 72px);
-  background: url("../img/hero-bg.jpg") center center;
+  background: url("../img/boda1.png") center center;
   background-size: cover;
   position: relative;
   margin-top: 72px;
