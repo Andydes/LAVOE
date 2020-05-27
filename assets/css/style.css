@@ -113,6 +113,15 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   list-style: none;
 }
+.imgevent{
+  margin-top: 80px;
+}
+
+@media (max-width: 992px) {
+  .imgevent{
+    margin-top: 0px;
+  }
+}
 
 .nav-menu > ul > li {
   position: relative;
