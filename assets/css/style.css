@@ -132,10 +132,10 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.897);
   padding: 8px 0 12px 0;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 15px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -399,13 +399,15 @@ h1, h2, h3, h4, h5, h6 {
   padding: 8px 28px;
   border-radius: 4px;
   transition: 0.5s;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #77d8d8;
+  color: #ffff;
+  background-color: #77d8d8;
 }
 
 #hero .btn-get-started:hover {
-  border-color: #77d8d8;
-  background: #77d8d8;
+  border-color: #ffff;
+  background: #ffff;
+  color: #77d8d8;
 }
 
 @media (min-width: 1024px) {
